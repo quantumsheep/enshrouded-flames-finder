@@ -106,7 +106,7 @@ function SaveHelp() {
           .
         </li>
         <li>
-          <strong class="text-primary">Steam Cloud off:</strong> <code>%userprofile%\Saved Games\Enshrouded</code>
+          <strong class="text-primary">Steam Cloud off:</strong> <code>%userprofile%\Saved Games\keen games\Enshrouded</code>
         </li>
       </ul>
       <a href="https://saraserenity.net/enshrouded/manage_saves.php?action=general#save_location" target="_blank" rel="noreferrer">

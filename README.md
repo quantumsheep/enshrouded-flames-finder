@@ -7,7 +7,7 @@ A map of the Flame Shrines in Enshrouded. Drop a `characterN.ksd` save file on t
 Where the save files are depends on whether Steam Cloud is on for Enshrouded. To check, right-click Enshrouded in your Steam library and select **Properties**.
 
 - **Steam Cloud on (default):** open the Steam install folder (usually `C:\Program Files (x86)\Steam`; Steam shows it under **Steam > Settings > Storage**). Then go to `userdata\<YOUR_STEAM_ID>\1203620`. You can also download the file from your [Steam Cloud storage for Enshrouded](https://store.steampowered.com/account/remotestorageapp/?appid=1203620). You must be logged in to Steam to see this page.
-- **Steam Cloud off:** paste `%userprofile%\Saved Games\Enshrouded` into the Windows Start menu or the File Explorer address bar.
+- **Steam Cloud off:** paste `%userprofile%\Saved Games\keen games\Enshrouded` into the Windows Start menu or the File Explorer address bar.
 
 In that folder, select a `characterN.ksd` file.
 
