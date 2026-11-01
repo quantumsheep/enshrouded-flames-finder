@@ -30,3 +30,9 @@ Other scripts: `bun run build`, `bun test`, `bun run check`, `bun run format`.
 docker build -t flame-shrine-finder .
 docker run -p 8080:80 flame-shrine-finder
 ```
+
+## License
+
+The source code is licensed under the [Apache License 2.0](LICENSE).
+
+Enshrouded and its assets, such as the map and the flame shrine icon, are the property of Keen Games. They are not covered by this license. This project is not affiliated with Keen Games.
