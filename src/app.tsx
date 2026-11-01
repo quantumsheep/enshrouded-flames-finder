@@ -2,6 +2,8 @@ import { useSignal } from "@preact/signals";
 import { useEffect } from "preact/hooks";
 
 import flameIconUrl from "./assets/flame-shrine.png";
+import githubDarkUrl from "./assets/github-dark.svg";
+import githubWhiteUrl from "./assets/github-white.svg";
 import { locations, shortName, type FlameLocation, type LocationKind } from "./locations.ts";
 import { MapView } from "./map.tsx";
 import {
@@ -69,6 +71,19 @@ function TopBar() {
           ?
         </button>
         <SaveHelp />
+        <a
+          class="btn btn-ghost btn-sm btn-icon"
+          href="https://github.com/quantumsheep/enshrouded-flames-finder"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Source code on GitHub"
+          title="Source code on GitHub"
+        >
+          <picture>
+            <source srcset={githubDarkUrl} media="(prefers-color-scheme: light)" />
+            <img class="size-4" src={githubWhiteUrl} alt="" />
+          </picture>
+        </a>
       </div>
     </header>
   );
